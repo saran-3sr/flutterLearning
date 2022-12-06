@@ -8,10 +8,10 @@ Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
       options: FirebaseOptions(
-          apiKey: 'AIzaSyD11_MbHeCgE5gKD8xAD8dSn0tnEtkkHLY',
-          appId: 'com.example.practiselogin',
+          apiKey: 'xxx',
+          appId: 'xxx',
           messagingSenderId: '',
-          projectId: 'practiseflutterlogin'));
+          projectId: 'xxx'));
   runApp(const MyApp());
 }
 
