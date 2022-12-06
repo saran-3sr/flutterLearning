@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:firebaseapp/landingpage.dart';
 // import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -94,7 +95,29 @@ class _MyHomePageState extends State<MyHomePage> {
 
     void registerNotification() async {
       _messaging = FirebaseMessaging.instance;
+      
+      print(_messaging);
+      // FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message) {
+      //   // Parse the message received
+      //   PushNotification notification = PushNotification(
+      //     title: message.notification?.title,
+      //     body: message.notification?.body,
+      //   );
+      //   print(message.notification?.title);
+
+      //   if (notification != null) {
+      //     // For displaying the notification as an overlay
+      //     showSimpleNotification(
+      //       Text(notification!.title!),
+      //       subtitle: Text(notification!.body!),
+      //       background: Colors.cyan.shade700,
+      //       duration: Duration(seconds: 2),
+      //     );
+      //     Navigator.pushNamed(context, './landingpage.dart');
+      //   }
+      // });
       FirebaseMessaging.onMessage.listen((RemoteMessage message) {
+        print("Hello ");
         // Parse the message received
         PushNotification notification = PushNotification(
           title: message.notification?.title,

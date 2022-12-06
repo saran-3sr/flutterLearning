@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "953097640826",
+    "project_id": "practiseflutterlogin",
+    "storage_bucket": "practiseflutterlogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953097640826:android:e4d1b7f6597dccfde814c3",
+        "android_client_info": {
+          "package_name": "com.example.practiselogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953097640826-h95q74f6stdmh1kuv4ons0jv10h215hn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD11_MbHeCgE5gKD8xAD8dSn0tnEtkkHLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953097640826-h95q74f6stdmh1kuv4ons0jv10h215hn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
